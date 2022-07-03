@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.image-section {
+    height: 500px;
+}
+.clscontain{
+    /* background-image: url("../assets/image/photo.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height:110vh;
+}
+
+.left-text {
+    text-align: left;
+}
+.left-text h3{
+    font-size: 3rem;
+}
+.left-text span{
+    font-size: 1.5rem;
+    color: red;
+}
+.card-body  a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.Card-icon{
+    text-align: start;
+}
+.withicon{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.person{
+    color: red;
+    font-size: ;
+}
+.cls{
+    color: black;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.card-para{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.Card-icon{
+    margin-top: .5rem;
+}
+.mssg{
+    color: red;
+}
+.card-text{
+    font-weight: 700;
+}
+@media screen and (min-width:577px) {
+    .Card-icon{
+        text-align: center;
+    }
+    .withicon{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:400px) {
+    .clsmr{
+        margin-top: 15px;
+    }
+}
